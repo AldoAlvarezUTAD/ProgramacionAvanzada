@@ -1,0 +1,49 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace UTAD
+{
+	public abstract class #SCRIPTNAME# : MonoBehaviour
+	{
+		#region UNITY METHODS
+		protected virtual void Start()
+		{
+			#NOTRIM#
+		}
+
+		protected virtual void Update()
+		{
+			#NOTRIM#
+		}
+		#endregion
+		
+		#region VARIABLES
+		
+		
+		#endregion
+		
+		#region PUBLIC METHODS
+		public void Method()
+		{
+			#NOTRIM#
+		}
+		#endregion
+		
+		#region PROTECTED / ABSTRACT
+		public abstract void AbstractMethod();
+		
+		protected virtual void OverridableMethod()
+		{
+			#NOTRIM#
+		}
+		#endregion
+		
+		#region PRIVATE METHODS
+		private void method()
+		{
+			#NOTRIM#
+		}
+		#endregion
+	}
+}

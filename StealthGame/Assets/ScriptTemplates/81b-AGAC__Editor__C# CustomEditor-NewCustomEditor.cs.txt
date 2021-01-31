@@ -1,0 +1,39 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+using AGAC.General;
+
+namespace UTAD.CustomEditor
+{
+	//[CustomEditor(typeof(  ))]
+	public class #SCRIPTNAME# : Editor
+	{
+		#region UNITY METHODS
+		private void OnEable()
+		{
+			#NOTRIM#
+		}
+
+		public override void OnInspectorGUI()
+		{
+			serializedObject.Update();
+			#NOTRIM#
+			serializedObject.ApplyModifiedProperties();
+
+		}
+		#endregion
+		
+		#region VARIABLES
+		
+		
+		#endregion
+		
+		#region PRIVATE METHODS
+		private void method()
+		{
+			#NOTRIM#
+		}
+		#endregion
+	}
+}

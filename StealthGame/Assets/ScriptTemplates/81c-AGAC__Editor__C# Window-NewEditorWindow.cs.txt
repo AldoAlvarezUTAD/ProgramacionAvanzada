@@ -1,0 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+using AGAC.General;
+
+namespace UTAD.CustomEditor
+{
+	public class #SCRIPTNAME# : EditorWindow
+	{
+		#region UNITY METHODS
+		[MenuItem("Window/Custom/New Window")]
+		public static void Open()
+		{
+			#SCRIPTNAME# window = (#SCRIPTNAME#)EditorWindow.GetWindow(typeof(#SCRIPTNAME#));
+			window.Show();
+		}
+
+		private void OnGUI()
+		{
+			#NOTRIM#
+		}
+		#endregion
+		
+		#region VARIABLES
+		
+		
+		#endregion
+		
+		#region PRIVATE METHODS
+		private void method()
+		{
+			#NOTRIM#
+		}
+		#endregion
+	}
+}

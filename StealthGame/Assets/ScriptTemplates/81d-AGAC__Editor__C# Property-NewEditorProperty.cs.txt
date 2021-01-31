@@ -1,0 +1,38 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+using AGAC.General;
+
+namespace UTAD.CustomEditor
+{
+	//[CustomPropertyDrawer(typeof(  ))]
+	public class #SCRIPTNAME# : PropertyDrawer
+	{
+		#region UNITY METHODS
+		public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+		{
+			EditorGUI.BeginProperty(position, label, property);
+			
+			EditorGUI.EndProperty();
+		}
+		
+		public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
+		{
+			return 30;
+		}
+		#endregion
+		
+		#region VARIABLES
+		
+		
+		#endregion
+		
+		#region PRIVATE METHODS
+		private void method()
+		{
+			#NOTRIM#
+		}
+		#endregion
+	}
+}

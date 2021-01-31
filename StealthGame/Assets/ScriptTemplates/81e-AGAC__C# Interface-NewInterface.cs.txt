@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace UTAD
+{
+	public interface #SCRIPTNAME#
+	{
+		bool property { get; }
+		
+		void Method();
+	}
+}
