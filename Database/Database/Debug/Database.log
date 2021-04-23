@@ -1,0 +1,8 @@
+﻿  CommandInputs.cpp
+  Database.cpp
+  DatabaseElement.cpp
+  DatabaseInterface.cpp
+c:\users\fourboxes\documents\github\utadstudent\programacionavanzada\database\database\databaseinterface.cpp(55): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+  Database.vcxproj -> C:\Users\fourboxes\Documents\GitHub\UTADStudent\ProgramacionAvanzada\Database\Debug\Database.exe

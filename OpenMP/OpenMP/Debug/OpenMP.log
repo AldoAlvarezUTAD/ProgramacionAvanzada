@@ -1,0 +1,10 @@
+﻿  main.cpp
+c1xx : warning C4199: two-phase name lookup is not supported for C++/CLI, C++/CX, or OpenMP; use /Zc:twoPhase-
+c:\users\fourboxes\documents\github\utadstudent\programacionavanzada\openmp\openmp\main.cpp(33): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\fourboxes\documents\github\utadstudent\programacionavanzada\openmp\openmp\main.cpp(34): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\fourboxes\documents\github\utadstudent\programacionavanzada\openmp\openmp\main.cpp(18): warning C4101: 'timeIni': unreferenced local variable
+c:\users\fourboxes\documents\github\utadstudent\programacionavanzada\openmp\openmp\main.cpp(18): warning C4101: 'timeFin': unreferenced local variable
+c:\users\fourboxes\documents\github\utadstudent\programacionavanzada\openmp\openmp\main.cpp(68): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\fourboxes\documents\github\utadstudent\programacionavanzada\openmp\openmp\main.cpp(69): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\fourboxes\documents\github\utadstudent\programacionavanzada\openmp\openmp\main.cpp(119): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  OpenMP.vcxproj -> C:\Users\fourboxes\Documents\GitHub\UTADStudent\ProgramacionAvanzada\OpenMP\Debug\OpenMP.exe
